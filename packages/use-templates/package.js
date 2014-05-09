@@ -4,9 +4,9 @@ Package.describe({
 
 Package.on_use(function (api) {
 
-    api.use(['templating', 'amplify'], 'client');
+    api.use('templating', 'client');
 
-    api.add_files('client.js', 'client');
     api.add_files('client.html', 'client');
+    api.add_files('client.js', 'client');
 
 });
